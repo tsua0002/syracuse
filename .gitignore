@@ -1,0 +1,49 @@
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / builds
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Optional persistent Collatz cache (regenerated locally)
+outputs/cache/
+*.sqlite
+
+# Generated plots: ignored unless listed below (curated publication figures).
+outputs/**/*.png
+!outputs/alpha_attachment_bins_1000.png
+!outputs/alpha_window_barcode.png
+!outputs/alpha_window_diagram.png
+!outputs/alpha_window_points.png
+!outputs/block_arithmetic.png
+!outputs/block_attachment_bins_1000.png
+!outputs/block_attachment_maps_bins_1000.png
+!outputs/dense_support_masks_1_to_10000.png
+!outputs/dense_support_thickening_1_to_10000.png
+!outputs/heatmap_1_to_10000.png
+!outputs/normalized_dense_support_masks_1_to_10000_bins_1000.png
+!outputs/normalized_dense_support_thickening_1_to_10000_bins_1000.png
+!outputs/normalized_heatmap_1_to_10000_bins_1000.png
+!outputs/tda_barcode_1_to_10000.png
+!outputs/tda_diagram_1_to_10000.png
+
+# Large reproducible binaries (regenerate via CLI)
+outputs/**/*.mp4
+outputs/**/*.npy

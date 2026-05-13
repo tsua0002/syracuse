@@ -1,0 +1,4 @@
+limit,bins,threshold,epsilon_cells,epsilon_normalized,largest_inscribed_radius_cells,largest_inscribed_radius_normalized,occupied_cells,beta0_before,beta1_after
+200000,2000,1,29,0.0145,739.6681688432997,0.36983408442164983,208107,47951,0
+500000,2000,1,28,0.014,703.0,0.3515,275850,53263,3
+1000000,2000,1,28,0.014,685.0,0.3425,325761,57408,3
